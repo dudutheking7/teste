@@ -6,7 +6,7 @@
 import { useEffect, useMemo, useState } from 'react';
 import { CircleHelp, Flame, MapPin } from 'lucide-react';
 import { MapContainer, Marker, Popup, TileLayer } from 'react-leaflet';
-import HeatmapLayer from 'react-leaflet-heatmap-layer';
+import { HeatmapLayer } from 'react-leaflet-heatmap-layer-v3';
 import L from 'leaflet';
 import { useAppContext } from '../context/AppContext';
 import { geocodeAddress } from '../services/geocodeService';
